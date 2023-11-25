@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".home"
+    tools:ignore="ExtraText">
+
+
+    <Button
+        android:id="@+id/boton_residente"
+        android:layout_width="279dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#567A97"
+        android:text="RESIDENTE"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_administrador"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.constraintlayout.widget.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UnknownId" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="307dp"
+        android:layout_height="308dp"
+        android:layout_marginTop="68dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vecindapp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/boton_administrador"
+        android:layout_width="279dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="#567A97"
+        android:text="ADMINISTRADOR"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.613"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_iniciar_sesion"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/titulo_iniciar_sesion"
+        android:layout_width="232dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:text="  INICIAR SESION"
+        android:textAppearance="@color/black"
+        android:textSize="29sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
