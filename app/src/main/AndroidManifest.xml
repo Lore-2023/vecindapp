@@ -13,6 +13,21 @@
         android:theme="@style/Theme.VecindApp"
         tools:targetApi="31">
         <activity
+            android:name=".vista_boletines"
+            android:exported="false" />
+        <activity
+            android:name=".datos"
+            android:exported="false" />
+        <activity
+            android:name=".asignacion_clave_residente"
+            android:exported="false" />
+        <activity
+            android:name=".perfil_residente"
+            android:exported="false" />
+        <activity
+            android:name=".registro_residente"
+            android:exported="false" />
+        <activity
             android:name=".crear_nueva_clave"
             android:exported="false" />
         <activity

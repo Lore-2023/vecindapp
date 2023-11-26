@@ -3,9 +3,9 @@ package com.example.vecindapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class MainActivity2 : AppCompatActivity() {
+class vista_boletines : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.acceso_administrador)
+        setContentView(R.layout.activity_vista_boletines)
     }
 }

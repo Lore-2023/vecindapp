@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".registro_residente">
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="CONTINUAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apartamento"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="REGRESAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.175"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/torre"
+        app:layout_constraintVertical_bias="0.0"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vecindapp"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/tipo_documento"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints="Tipo documento"
+        android:background="@color/fondo_datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingreso_datos_registro" />
+
+    <TextView
+        android:id="@+id/ingreso_datos_registro"
+        android:layout_width="262dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="4dp"
+        android:text="Ingresa los siguientes datos"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <EditText
+        android:id="@+id/numero_documento"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="7dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  No. Cédula"
+        android:inputType="number"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipo_documento" />
+
+    <EditText
+        android:id="@+id/nombres"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  Nombre Completo"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/numero_documento" />
+
+    <EditText
+        android:id="@+id/apellidos"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  Apellidos"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nombres" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="9dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  Fecha de Nacimiento (dd/mm/aaaa)"
+        android:inputType="date"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:cornerRadius="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apellidos" />
+
+    <EditText
+        android:id="@+id/correo_electronico"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  Correo Electrónico"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
+
+    <EditText
+        android:id="@+id/celular_registrado"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint="  Celular"
+        android:inputType="phone"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correo_electronico" />
+
+    <Spinner
+        android:id="@+id/torre"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="13dp"
+        android:autofillHints="Torre"
+        android:background="@color/fondo_datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.156"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/celular_registrado" />
+
+    <Spinner
+        android:id="@+id/apartamento"
+        android:layout_width="150dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="13dp"
+        android:autofillHints="Apartamento"
+        android:background="@color/fondo_datos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.843"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/celular_registrado" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

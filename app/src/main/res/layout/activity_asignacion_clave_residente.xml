@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".asignacion_clave_residente">
+
+    <TextView
+        android:id="@+id/registro_residentes"
+        android:layout_width="326dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:text="Registro  para Residentes y/o Propietarios"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.658"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="131dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="REGRESAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmar_clave"
+        app:layout_constraintVertical_bias="0.622"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="150dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="108dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="CONTINUAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmar_clave"
+        app:layout_constraintVertical_bias="0.622"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="214dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vecindapp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/asignar_clave"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="47dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint=" Asigna una Clave"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/registro_residentes" />
+
+    <EditText
+        android:id="@+id/confirmar_clave"
+        android:layout_width="329dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/fondo_datos"
+        android:ems="10"
+        android:hint=" Confirmar la Clave Asignada"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/asignar_clave" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".perfil_residente">
+
+    <Button
+        android:id="@+id/calendario"
+        android:layout_width="283dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
+        android:text="Agenda Zonas Comunes"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/radicar_PQRs" />
+
+    <Button
+        android:id="@+id/cerrar_sesion"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginBottom="56dp"
+        android:backgroundTint="#EB1C1E2B"
+        android:text="Cerrar Sesión"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calendario" />
+
+    <Button
+        android:id="@+id/radicar_PQRs"
+        android:layout_width="283dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
+        android:text="Radica PQRs"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo_PQR"
+        app:layout_constraintTop_toBottomOf="@+id/administrar_pagos" />
+
+    <TextView
+        android:id="@+id/titulo_bienvenido"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="BIENVENIDO"
+        android:textAppearance="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.561"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <Button
+        android:id="@+id/boletin_informativo"
+        android:layout_width="283dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
+        android:text="Boletín Informativo"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo_boletin"
+        app:layout_constraintTop_toBottomOf="@+id/titulo_bienvenido" />
+
+    <Button
+        android:id="@+id/administrar_pagos"
+        android:layout_width="283dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
+        android:text="Administra tus Pagos"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo_pagos"
+        app:layout_constraintTop_toBottomOf="@+id/boletin_informativo" />
+
+    <ImageView
+        android:id="@+id/logo_boletin"
+        android:layout_width="67dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/boletin_informativo" />
+
+    <ImageView
+        android:id="@+id/logo_PQR"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_pagos"
+        app:srcCompat="@drawable/logo_pqr" />
+
+    <ImageView
+        android:id="@+id/logo_pagos"
+        android:layout_width="67dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_boletin"
+        app:srcCompat="@drawable/logo_pagos" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vecindapp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="70dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.09"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_PQR"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/calendario" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
