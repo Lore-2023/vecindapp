@@ -5,10 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo2"
-    tools:context=".MainActivity2">
+    tools:context=".perfil_administrador1">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/gestion_PQR"
         android:layout_width="283dp"
         android:layout_height="68dp"
         android:layout_marginTop="20dp"
@@ -37,7 +37,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/gestion_PQR"
         app:layout_constraintVertical_bias="0.32" />
 
     <Button
@@ -98,7 +98,7 @@
         app:srcCompat="@drawable/boletin_informativo" />
 
     <TextView
-        android:id="@+id/titulo_perfil_administrador"
+        android:id="@+id/texto_bienvenido"
         android:layout_width="149dp"
         android:layout_height="34dp"
         android:layout_marginTop="20dp"
@@ -135,7 +135,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.406"
         app:layout_constraintStart_toEndOf="@+id/logo_boletin"
-        app:layout_constraintTop_toBottomOf="@+id/titulo_perfil_administrador" />
+        app:layout_constraintTop_toBottomOf="@+id/texto_bienvenido" />
 
     <ImageView
         android:id="@+id/logo_pagos"

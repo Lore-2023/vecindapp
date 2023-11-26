@@ -13,10 +13,13 @@
         android:theme="@style/Theme.VecindApp"
         tools:targetApi="31">
         <activity
-            android:name=".vista_boletines"
+            android:name=".perfil_administrador1"
             android:exported="false" />
         <activity
-            android:name=".datos"
+            android:name=".acceso_principal"
+            android:exported="false" />
+        <activity
+            android:name=".vista_boletines"
             android:exported="false" />
         <activity
             android:name=".asignacion_clave_residente"
@@ -40,19 +43,10 @@
             android:name=".Boletines"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".perfil_administrador"
             android:exported="false" />
         <activity
             android:name=".home"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".perfil_administrador"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
