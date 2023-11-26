@@ -4,6 +4,115 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
     tools:context=".Boletines">
 
+    <Button
+        android:id="@+id/cerrar_sesion2"
+        android:layout_width="164dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="44dp"
+        android:backgroundTint="#EB1C1E2B"
+        android:text="Cerrar Sesión"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        app:cornerRadius="11dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regresar" />
+
+    <ListView
+        android:layout_width="320dp"
+        android:layout_height="330dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
+
+    <TextView
+        android:id="@+id/editar_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="EDITAR O ELIMINAR PUBLICACIÓN"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_boletin" />
+
+    <Button
+        android:id="@+id/regresar"
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="412dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="REGRESAR"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.161"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_boletin"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/creacion_publicacion"
+        android:layout_width="190dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="@color/boton_azul"
+        android:text="CREAR PUBLICACIÓN"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo"
+        app:rippleColor="@color/material_dynamic_primary60"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/gestion_boletines"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="GESTIÓN DE BOLETINES"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="180dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.826"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_vecindapp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/logo_boletin"
+        android:layout_width="105dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gestion_boletines"
+        app:srcCompat="@drawable/boletin_informativo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

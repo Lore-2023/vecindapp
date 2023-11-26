@@ -2,4 +2,8 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="fondo_datos">#F7E5DB</color>
+    <color name="boton_azul">#567A97</color>
+    <color name="boton_azul_oscuro">#652E355A</color>
+
 </resources>

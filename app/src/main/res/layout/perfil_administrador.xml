@@ -8,24 +8,26 @@
     tools:context=".MainActivity2">
 
     <Button
-        android:id="@+id/gestion_PQR"
+        android:id="@+id/button"
         android:layout_width="283dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="28dp"
-        android:backgroundTint="#652E355A"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
         android:text="Gestión de PQRs"
         android:textColor="@color/white"
         android:textSize="18dp"
         app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.259"
         app:layout_constraintStart_toEndOf="@+id/logo_PQR"
         app:layout_constraintTop_toBottomOf="@+id/gestion_pagos" />
 
     <Button
         android:id="@+id/cerrar_sesion"
         android:layout_width="164dp"
-        android:layout_height="42dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="40dp"
         android:backgroundTint="#EB1C1E2B"
         android:text="Cerrar Sesión"
         android:textColor="@color/white"
@@ -33,40 +35,44 @@
         app:cornerRadius="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/gestion_PQR"
-        app:layout_constraintVertical_bias="0.216" />
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.32" />
 
     <Button
         android:id="@+id/gestion_pagos"
         android:layout_width="283dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="24dp"
-        android:backgroundTint="#652E355A"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
         android:text="Gestión de Pagos"
         android:textColor="@color/white"
         android:textSize="18dp"
         app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toEndOf="@+id/logo_pagos"
         app:layout_constraintTop_toBottomOf="@+id/gestion_usuarios" />
 
     <Button
         android:id="@+id/gestion_usuarios"
         android:layout_width="283dp"
-        android:layout_height="59dp"
+        android:layout_height="68dp"
         android:layout_marginTop="20dp"
-        android:backgroundTint="#652E355A"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/boton_azul_oscuro"
         android:text="Gestión de Usuarios"
         android:textColor="@color/white"
         android:textSize="18dp"
         app:cornerRadius="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/gestion_pagos"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.323"
+        app:layout_constraintHorizontal_bias="0.285"
         app:layout_constraintStart_toEndOf="@+id/logo_usuarios"
-        app:layout_constraintTop_toBottomOf="@+id/gestion_boletines" />
+        app:layout_constraintTop_toBottomOf="@+id/gestion_boletines"
+        app:layout_constraintVertical_bias="0.5" />
 
     <ImageView
         android:id="@+id/logo"
@@ -82,7 +88,7 @@
 
     <ImageView
         android:id="@+id/logo_boletin"
-        android:layout_width="65dp"
+        android:layout_width="67dp"
         android:layout_height="69dp"
         android:layout_marginTop="276dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -93,22 +99,22 @@
 
     <TextView
         android:id="@+id/titulo_perfil_administrador"
-        android:layout_width="249dp"
-        android:layout_height="28dp"
-        android:layout_marginTop="24dp"
-        android:text="PERFIL DE ADMINISTRADOR"
+        android:layout_width="149dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="20dp"
+        android:text="BIENVENIDO"
         android:textAppearance="@color/black"
-        android:textSize="19sp"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.716"
+        app:layout_constraintHorizontal_bias="0.549"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <ImageView
         android:id="@+id/logo_usuarios"
-        android:layout_width="67dp"
-        android:layout_height="70dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="24dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
@@ -118,10 +124,10 @@
     <Button
         android:id="@+id/gestion_boletines"
         android:layout_width="283dp"
-        android:layout_height="59dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="68dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="4dp"
-        android:backgroundTint="#652E355A"
+        android:backgroundTint="@color/boton_azul_oscuro"
         android:text="Gestión de Boletines"
         android:textColor="@color/white"
         android:textSize="18dp"
@@ -133,8 +139,8 @@
 
     <ImageView
         android:id="@+id/logo_pagos"
-        android:layout_width="66dp"
-        android:layout_height="61dp"
+        android:layout_width="68dp"
+        android:layout_height="65dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.081"
@@ -144,12 +150,12 @@
 
     <ImageView
         android:id="@+id/logo_PQR"
-        android:layout_width="65dp"
-        android:layout_height="65dp"
+        android:layout_width="69dp"
+        android:layout_height="69dp"
         android:layout_marginTop="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.081"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo_pagos"
         app:layout_constraintVertical_bias="0.0"

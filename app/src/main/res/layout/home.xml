@@ -11,35 +11,31 @@
 
     <Button
         android:id="@+id/boton_residente"
-        android:layout_width="279dp"
+        android:layout_width="290dp"
         android:layout_height="74dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="96dp"
         android:backgroundTint="#567A97"
         android:text="RESIDENTE"
         android:textColor="@color/white"
         android:textSize="24sp"
+        app:cornerRadius="11sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/boton_administrador"
         app:layout_constraintVertical_bias="0.0"
         app:rippleColor="@color/material_dynamic_primary60"
         tools:ignore="MissingConstraints" />
 
-    <androidx.constraintlayout.widget.Group
-        android:id="@+id/group"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        tools:ignore="UnknownId" />
-
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="307dp"
-        android:layout_height="308dp"
-        android:layout_marginTop="68dp"
+        android:layout_width="284dp"
+        android:layout_height="283dp"
+        android:layout_marginTop="64dp"
+        app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.634"
+        app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_vecindapp"
@@ -47,15 +43,15 @@
 
     <Button
         android:id="@+id/boton_administrador"
-        android:layout_width="279dp"
+        android:layout_width="290dp"
         android:layout_height="74dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="20dp"
         android:backgroundTint="#567A97"
         android:text="ADMINISTRADOR"
         android:textColor="@color/white"
         android:textSize="24sp"
+        app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.613"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titulo_iniciar_sesion"
         app:rippleColor="@color/material_dynamic_primary60"
@@ -70,7 +66,7 @@
         android:textAppearance="@color/black"
         android:textSize="29sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.631"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo"
         tools:ignore="MissingConstraints" />

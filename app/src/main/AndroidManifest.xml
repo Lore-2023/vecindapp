@@ -13,6 +13,12 @@
         android:theme="@style/Theme.VecindApp"
         tools:targetApi="31">
         <activity
+            android:name=".crear_nueva_clave"
+            android:exported="false" />
+        <activity
+            android:name=".recuperar_clave"
+            android:exported="false" />
+        <activity
             android:name=".gestion_usuarios"
             android:exported="false" />
         <activity
