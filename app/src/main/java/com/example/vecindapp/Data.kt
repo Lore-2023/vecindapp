@@ -10,6 +10,15 @@ package com.example.vecindapp
 
  val boletines= listOf("Corte de luz 27 nov","Corte de agua el 28 nov","Residente 201 pague")
 
+val tipoDocumentousu= mutableMapOf<String,String>( "40736898" to "Cédula de Ciudadanía","83699748" to "Cedula de Extranjeria","30195404" to "Cedula de Ciudadania")
+val numdocumentousu= mutableMapOf( "40736898" to "40736898","83699748" to "83699748","30195404" to "30195404")
+val nombreusu= mutableMapOf( "40736898" to "OSCAR ESTEBAN","83699748" to "VICTOR MANUEL","30195404" to "JOSE MARIA ")
+val apellidousu= mutableMapOf( "40736898" to "MORA PACHECO","83699748" to "CORTES BAUTISTA","30195404" to "SANCHEZ CASTELLANOS")
+val fecha_nacimiento_usu= mutableMapOf( "40736898" to "24071984","83699748" to "31071952","30195404" to "7011962")
+val correousu= mutableMapOf("40736898" to "oscarm@gmail.com","83699748" to "victorm@gmail.com","30195404" to "josem@gmail.com")
+val celularusu= mutableMapOf("40736898" to "3026936540","83699748" to "3044136274","30195404" to "3030050866")
+val torreusu= mutableMapOf("40736898" to "1","83699748" to "3","30195404" to "1")
+val apartamentousu= mutableMapOf("40736898" to "101","83699748" to "102","30195404" to "102")
 /*
 usuarios residentes
 432 = 432

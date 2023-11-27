@@ -6,4 +6,11 @@
     <string name="titulo">Error de usuario</string>
     <string name="mensaje">El usuario o la contraseña es invalida</string>
     <string name="aceptar">Aceptar</string>
+    <string name="datos_Invalidos">Datos Invalidos</string>
+    <string name="verificar_datos">Verifica los datos, no pueden haber campos en blanco</string>
+    <string name="RegistroUsuario">Registro de usuario</string>
+    <string name="MsjRegistro">Se ha registrado correctamente</string>
+    <string name="Error_contraseña">Error de Contraseña</string>
+    <string name="Msj_contraseña_no_coinciden">Las contraseñas no coinciden, verifiquelas e intente nuevamente.</string>
+
 </resources>

@@ -31,6 +31,14 @@ class acceso_principal : AppCompatActivity() {
                 if (mapusuadmin && clave==mapclaveadmin){
                     val intent = Intent(this, perfil_administrador1::class.java)
                     startActivity(intent)
+                }else{
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle(resources.getString(R.string.titulo))
+                        .setMessage(resources.getString(R.string.mensaje))
+                        .setPositiveButton(resources.getString(R.string.aceptar)){dialog,which->
+
+                        }
+                        .show()
                 }
             }else if (perfil=="2"){
                 val mapusuaresi= credencialesusuarios.containsKey(numcedu)
@@ -38,18 +46,16 @@ class acceso_principal : AppCompatActivity() {
                 if (mapusuaresi && clave==mapclaveresi){
                     val intent = Intent(this, perfil_residente::class.java)
                     startActivity(intent)
+                }else{
+                    MaterialAlertDialogBuilder(this)
+                        .setTitle(resources.getString(R.string.titulo))
+                        .setMessage(resources.getString(R.string.mensaje))
+                        .setPositiveButton(resources.getString(R.string.aceptar)){dialog,which->
+
+                        }
+                        .show()
                 }
 
-            }else {
-                    /*Toast.makeText(this,"usuario o contraseña no existe",Toast.LENGTH_LONG).show()
-                MaterialAlertDialogBuilder(this)
-                    .setTitle(resources.getString(R.string.titulo))
-                    .setMessage(resources.getString(R.string.mensaje))
-                    .setPositiveButton(resources.getString(R.string.aceptar)){dialog,which->
-
-                    }
-                    .show()*/
-                Toast.makeText(this,"usuario o contraseña no existe",Toast.LENGTH_LONG).show()
             }
         }
 
