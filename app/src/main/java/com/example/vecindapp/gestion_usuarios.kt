@@ -1,8 +1,10 @@
 package com.example.vecindapp
 
+import android.R
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import com.example.vecindapp.databinding.ActivityCrearNuevaClaveBinding
 import com.example.vecindapp.databinding.ActivityGestionUsuariosBinding
 
@@ -13,8 +15,10 @@ class gestion_usuarios : AppCompatActivity() {
         binding=ActivityGestionUsuariosBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        val adapterGestionUsuariosBinding= ArrayAdapter(this, R.layout.simple_list_item_1, poraprobacion)
+        binding.ListaAprobaciones.adapter=adapterGestionUsuariosBinding
 
-        binding.regresar2.setOnClickListener {
+        binding.regresar.setOnClickListener {
             val intent=Intent(this,perfil_administrador1::class.java)
             startActivity(intent)
         }
@@ -24,7 +28,7 @@ class gestion_usuarios : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.cerrarSesion3.setOnClickListener {
+        binding.cerrarSesion.setOnClickListener {
             val intent=Intent(this,acceso_principal::class.java)
             startActivity(intent)
         }
