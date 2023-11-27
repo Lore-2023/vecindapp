@@ -14,8 +14,16 @@ class home : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.botonAdministrador.setOnClickListener{
-            val intent=Intent(this,Boletines::class.java)
+            val intent=Intent(this,acceso_principal::class.java)
+                .putExtra("perfil", "1")
             startActivity(intent)
+
+        }
+        binding.botonResidente.setOnClickListener{
+            val intent=Intent(this,acceso_principal::class.java)
+                .putExtra("perfil","2")
+            startActivity(intent)
+
 
         }
     }

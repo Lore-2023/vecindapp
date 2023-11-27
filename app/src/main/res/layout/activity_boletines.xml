@@ -25,9 +25,10 @@
         app:layout_constraintTop_toBottomOf="@+id/regresar" />
 
     <ListView
+        android:id="@+id/Lista_Boletines"
         android:layout_width="320dp"
         android:layout_height="330dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"

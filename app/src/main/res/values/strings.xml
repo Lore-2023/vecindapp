@@ -3,4 +3,7 @@
     <string name="continuar">Continuar</string>
     <string name="regresar">regresar</string>
     <string name="ingresar">ingresar</string>
+    <string name="titulo">Error de usuario</string>
+    <string name="mensaje">El usuario o la contraseña es invalida</string>
+    <string name="aceptar">Aceptar</string>
 </resources>

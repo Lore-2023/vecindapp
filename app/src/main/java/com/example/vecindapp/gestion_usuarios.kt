@@ -1,11 +1,32 @@
 package com.example.vecindapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.vecindapp.databinding.ActivityCrearNuevaClaveBinding
+import com.example.vecindapp.databinding.ActivityGestionUsuariosBinding
 
 class gestion_usuarios : AppCompatActivity() {
+    lateinit var binding: ActivityGestionUsuariosBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_gestion_usuarios)
+        binding=ActivityGestionUsuariosBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+
+        binding.regresar2.setOnClickListener {
+            val intent=Intent(this,perfil_administrador1::class.java)
+            startActivity(intent)
+        }
+
+        binding.creacionUsuario.setOnClickListener {
+            val intent=Intent(this,registro_residente::class.java)
+            startActivity(intent)
+        }
+
+        binding.cerrarSesion3.setOnClickListener {
+            val intent=Intent(this,acceso_principal::class.java)
+            startActivity(intent)
+        }
     }
 }
