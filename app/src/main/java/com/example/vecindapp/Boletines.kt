@@ -22,7 +22,7 @@ class Boletines : AppCompatActivity() {
             startActivity(intent)
         }
 
-        binding.cerrarSesion.setOnClickListener {
+        binding.cerrarSesion2.setOnClickListener {
             val intent=Intent(this,acceso_principal::class.java)
             startActivity(intent)
         }

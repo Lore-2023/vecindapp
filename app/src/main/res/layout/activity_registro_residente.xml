@@ -129,7 +129,7 @@
         app:layout_constraintTop_toBottomOf="@+id/nombres" />
 
     <EditText
-        android:id="@+id/fecha_nacimiento"
+        android:id="@+id/editTextDate"
         android:layout_width="329dp"
         android:layout_height="35dp"
         android:layout_marginTop="9dp"
@@ -158,7 +158,7 @@
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/fecha_nacimiento" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextDate" />
 
     <EditText
         android:id="@+id/celular_registrado"

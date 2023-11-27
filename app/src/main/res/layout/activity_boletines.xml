@@ -8,7 +8,7 @@
     tools:context=".Boletines">
 
     <Button
-        android:id="@+id/cerrar_sesion"
+        android:id="@+id/cerrar_sesion2"
         android:layout_width="164dp"
         android:layout_height="47dp"
         android:layout_marginTop="2dp"

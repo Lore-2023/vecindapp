@@ -43,6 +43,9 @@
             android:name=".Boletines"
             android:exported="false" />
         <activity
+            android:name=".perfil_administrador"
+            android:exported="false" />
+        <activity
             android:name=".home"
             android:exported="true">
             <intent-filter>

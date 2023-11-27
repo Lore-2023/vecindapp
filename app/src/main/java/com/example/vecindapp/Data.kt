@@ -8,9 +8,7 @@ package com.example.vecindapp
 
  val tipodocumento= listOf("Tarjeta de Identidad","Cédula de Ciudadanía","Cédula de Extranjería","Pasaporte")
 
- val boletines= listOf("Informamos corte del servicio de electricidad programado para el dia lunes 27 de noviembre"," ","Mantenimiento de tanques de agua de reserva para las torres 1 y 2, programado para el dia 30 de Noviembre"," ","Residentes en mora de administración: Torre 1 - 204 - Torre 2 - 102 - Torre 5 - 206")
-
- val poraprobacion= listOf("OSCAR ESTEBAN MORA PACHECO, 40736898, 1, 102","VICTOR MANUEL CORTES BAUTISTA, 83699748, 2, 201","JOSE MARIA SANCHEZ CASTELLANOS, 30195404, 6, 206","RODRIGO JAIME MORALES SIERRA, 439447, 1, 107","VIRGINIA CATALINA ARENAS ARDILA, 18065417, 4, 206","MARIA ISABEL RICO VILLA, 41350952, 5, 201","MANUEL IGNACIO GAVIRIA SARMIENTO, 4832554, 3, 201")
+ val boletines= listOf("Corte de luz 27 nov","Corte de agua el 28 nov","Residente 201 pague")
 
 /*
 usuarios residentes

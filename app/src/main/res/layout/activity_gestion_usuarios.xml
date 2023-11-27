@@ -8,7 +8,7 @@
     tools:context=".gestion_usuarios">
 
     <Button
-        android:id="@+id/cerrar_sesion"
+        android:id="@+id/cerrar_sesion3"
         android:layout_width="164dp"
         android:layout_height="47dp"
         android:backgroundTint="#EB1C1E2B"
@@ -41,7 +41,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/regresar"
+        android:id="@+id/regresar2"
         android:layout_width="120dp"
         android:layout_height="49dp"
         android:layout_marginTop="364dp"
@@ -107,11 +107,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:id="@+id/Lista_Aprobaciones"
         android:layout_width="315dp"
         android:layout_height="319dp"
         android:layout_marginTop="64dp"
-        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />

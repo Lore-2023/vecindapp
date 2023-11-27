@@ -20,7 +20,7 @@
         android:textSize="18dp"
         app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/logo_calendario"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toBottomOf="@+id/radicar_PQRs" />
 
     <Button
@@ -147,7 +147,7 @@
         tools:ignore="MissingConstraints" />
 
     <ImageView
-        android:id="@+id/logo_calendario"
+        android:id="@+id/imageView"
         android:layout_width="70dp"
         android:layout_height="68dp"
         android:layout_marginTop="15dp"

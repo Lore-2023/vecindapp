@@ -21,9 +21,9 @@ class crear_nueva_clave : AppCompatActivity() {
         binding.restablecer.setOnClickListener {
             val intent=Intent(this,acceso_principal::class.java)
             MaterialAlertDialogBuilder(this)
-                .setTitle(resources.getString(R.string.titulo2))
-                .setMessage(resources.getString(R.string.mensaje2))
-                .setPositiveButton(resources.getString(R.string.aceptar2)){dialog,which->
+                .setTitle(resources.getString(R.string.titulo))
+                .setMessage(resources.getString(R.string.mensaje))
+                .setPositiveButton(resources.getString(R.string.aceptar)){dialog,which->
                     startActivity(intent)
                 }
                 .show()

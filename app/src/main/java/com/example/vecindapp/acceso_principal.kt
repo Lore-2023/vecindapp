@@ -40,21 +40,28 @@ class acceso_principal : AppCompatActivity() {
                     startActivity(intent)
                 }
 
-            } else {
-                val mensaje= "Usuario o clave incorrecta"
-                Toast.makeText(this, mensaje, Toast.LENGTH_LONG).show()
-                }
+            }else {
+                    /*Toast.makeText(this,"usuario o contraseña no existe",Toast.LENGTH_LONG).show()
+                MaterialAlertDialogBuilder(this)
+                    .setTitle(resources.getString(R.string.titulo))
+                    .setMessage(resources.getString(R.string.mensaje))
+                    .setPositiveButton(resources.getString(R.string.aceptar)){dialog,which->
+
+                    }
+                    .show()*/
+                Toast.makeText(this,"usuario o contraseña no existe",Toast.LENGTH_LONG).show()
+            }
         }
 
        binding.registrarse.setOnClickListener {
             val intent=Intent(this,registro_residente::class.java)
             startActivity(intent)
-       }
-       binding.olvidoClave.setOnClickListener {
+        }
+
+        binding.olvidoClave.setOnClickListener {
             val intent = Intent(this, recuperar_clave::class.java)
-                .putExtra("perfil", "1")
             startActivity(intent)
-       }
+        }
 
     }
 

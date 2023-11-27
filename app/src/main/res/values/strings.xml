@@ -3,10 +3,7 @@
     <string name="continuar">Continuar</string>
     <string name="regresar">regresar</string>
     <string name="ingresar">ingresar</string>
-    <string name="titulo1">Error de usuario</string>
-    <string name="mensaje1">El usuario o la contraseña es invalida</string>
-    <string name="aceptar1">Aceptar</string>
-    <string name="titulo2">Clave Restablecida</string>
-    <string name="mensaje2">La clave ha sido restablecida con Exito!</string>
-    <string name="aceptar2">Aceptar</string>
+    <string name="titulo">Error de usuario</string>
+    <string name="mensaje">El usuario o la contraseña es invalida</string>
+    <string name="aceptar">Aceptar</string>
 </resources>
