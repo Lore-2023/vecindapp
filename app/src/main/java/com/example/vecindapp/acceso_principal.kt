@@ -66,6 +66,7 @@ class acceso_principal : AppCompatActivity() {
 
         binding.olvidoClave.setOnClickListener {
             val intent = Intent(this, recuperar_clave::class.java)
+                .putExtra("perfil", "1")
             startActivity(intent)
         }
 

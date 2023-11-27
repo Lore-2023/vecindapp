@@ -107,6 +107,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
+        android:id="@+id/Lista_Aprobaciones"
         android:layout_width="315dp"
         android:layout_height="319dp"
         android:layout_marginTop="64dp"

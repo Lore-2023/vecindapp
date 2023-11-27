@@ -3,6 +3,7 @@ package com.example.vecindapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import com.example.vecindapp.databinding.ActivityCrearNuevaClaveBinding
 import com.example.vecindapp.databinding.ActivityGestionUsuariosBinding
 
@@ -12,6 +13,9 @@ class gestion_usuarios : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding=ActivityGestionUsuariosBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val adapterGestionUsuariosBinding= ArrayAdapter(this, android.R.layout.simple_list_item_1, poraprobacion)
+        binding.ListaAprobaciones.adapter=adapterGestionUsuariosBinding
 
 
         binding.regresar2.setOnClickListener {
