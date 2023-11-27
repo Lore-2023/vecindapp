@@ -5,5 +5,6 @@
     <color name="fondo_datos">#F7E5DB</color>
     <color name="boton_azul">#567A97</color>
     <color name="boton_azul_oscuro">#652E355A</color>
+    <color name="grey">#404040</color>
 
 </resources>

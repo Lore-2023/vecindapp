@@ -18,10 +18,10 @@
         app:cornerRadius="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/creacion_usuario"
-        app:layout_constraintVertical_bias="0.288" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/creacion_usuario"
@@ -34,7 +34,7 @@
         android:textSize="16sp"
         app:cornerRadius="11dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.823"
+        app:layout_constraintHorizontal_bias="0.846"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aprobar_rechazar"
         app:rippleColor="@color/material_dynamic_primary60"
@@ -61,12 +61,11 @@
         android:id="@+id/aprobar_rechazar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
-        android:text="APROBAR O RECHAZAR ACCESOS"
+        android:layout_marginTop="40dp"
+        android:text="APROBAR O RECHAZAR USUARIOS"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.204"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo_usuarios" />
 
@@ -74,9 +73,9 @@
         android:id="@+id/logo"
         android:layout_width="180dp"
         android:layout_height="159dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="40dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.792"
+        app:layout_constraintHorizontal_bias="0.852"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_vecindapp"
@@ -97,20 +96,20 @@
         android:id="@+id/gestion_usuarios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:textColor="@color/black"
+        android:layout_marginTop="48dp"
         android:text="GESTIÓN DE USUARIOS"
-        android:textSize="13sp"
+        android:textColor="@color/black"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintHorizontal_bias="0.111"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
         android:id="@+id/Lista_Aprobaciones"
-        android:layout_width="315dp"
-        android:layout_height="319dp"
-        android:layout_marginTop="64dp"
+        android:layout_width="313dp"
+        android:layout_height="328dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logo" />

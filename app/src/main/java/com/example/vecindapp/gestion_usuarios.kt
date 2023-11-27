@@ -29,7 +29,7 @@ class gestion_usuarios : AppCompatActivity() {
         }
 
         binding.cerrarSesion3.setOnClickListener {
-            val intent=Intent(this,acceso_principal::class.java)
+            val intent=Intent(this,home::class.java)
             startActivity(intent)
         }
     }

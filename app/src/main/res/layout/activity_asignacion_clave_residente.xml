@@ -9,12 +9,12 @@
 
     <TextView
         android:id="@+id/registro_residentes"
-        android:layout_width="326dp"
-        android:layout_height="46dp"
+        android:layout_width="359dp"
+        android:layout_height="75dp"
         android:layout_marginTop="36dp"
-        android:text="Registro  para Residentes y/o Propietarios"
+        android:text="Registro para Residentes y/o Propietarios"
         android:textColor="@color/black"
-        android:textSize="20sp"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +35,7 @@
         app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmar_clave"
-        app:layout_constraintVertical_bias="0.622"
+        app:layout_constraintVertical_bias="1.0"
         app:rippleColor="@color/material_dynamic_primary60"
         tools:ignore="MissingConstraints" />
 
@@ -51,10 +51,10 @@
         app:cornerRadius="11dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/confirmar_clave"
-        app:layout_constraintVertical_bias="0.622"
+        app:layout_constraintVertical_bias="1.0"
         app:rippleColor="@color/material_dynamic_primary60"
         tools:ignore="MissingConstraints" />
 
@@ -74,7 +74,7 @@
         android:id="@+id/asignar_clave"
         android:layout_width="329dp"
         android:layout_height="35dp"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="8dp"
         android:background="@color/fondo_datos"
         android:ems="10"
         android:hint=" Asigna una Clave"

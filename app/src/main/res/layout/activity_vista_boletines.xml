@@ -7,19 +7,19 @@
     android:background="@drawable/fondo2"
     tools:context=".vista_boletines">
 
+
     <TextView
         android:id="@+id/boletin_informativo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="48dp"
         android:text="BOLETIN INFORMATIVO"
         android:textColor="@color/black"
-        android:textSize="13sp"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.162"
+        app:layout_constraintHorizontal_bias="0.108"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 
     <ListView
         android:id="@+id/Lista_Boletines"
@@ -35,9 +35,9 @@
         android:id="@+id/logo"
         android:layout_width="180dp"
         android:layout_height="159dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="36dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintHorizontal_bias="0.913"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo_vecindapp"
