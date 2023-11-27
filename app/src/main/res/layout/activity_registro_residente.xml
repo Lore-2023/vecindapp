@@ -59,12 +59,13 @@
 
     <Spinner
         android:id="@+id/tipo_documento"
-        android:layout_width="329dp"
-        android:layout_height="35dp"
+        android:layout_width="332dp"
+        android:layout_height="50dp"
         android:layout_marginTop="16dp"
         android:autofillHints="Tipo documento"
-        android:background="@color/fondo_datos"
+        android:background="@color/boton_azul"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ingreso_datos_registro" />
 
@@ -182,7 +183,7 @@
         android:layout_height="39dp"
         android:layout_marginTop="13dp"
         android:autofillHints="Torre"
-        android:background="@color/fondo_datos"
+        android:background="@color/boton_azul"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.156"
         app:layout_constraintStart_toStartOf="parent"
@@ -194,7 +195,7 @@
         android:layout_height="39dp"
         android:layout_marginTop="13dp"
         android:autofillHints="Apartamento"
-        android:background="@color/fondo_datos"
+        android:background="@color/boton_azul"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.843"
         app:layout_constraintStart_toStartOf="parent"
